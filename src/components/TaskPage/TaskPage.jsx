@@ -56,9 +56,6 @@ export const TaskPage = ({children}) => {
         taskCounter++
       }
 
-      
-
-
       return randomize
       
     }

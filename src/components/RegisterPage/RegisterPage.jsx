@@ -9,7 +9,7 @@ export const RegisterPage = () => {
           <h1>Регистрация</h1>
           <SignUp/>
       <p>
-      <Link to={"/login"}>Авторизация</Link>
+      <Link className='redirect' to={"/login"}>Авторизация</Link>
       </p>
     </div>
     </div>
