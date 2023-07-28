@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,800&family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700&family=Rubik+Mono+One&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+.container{
+    height: 10%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    align-items: center;
+    border-bottom: 1px solid white;
+    /* background-color: black; */
+}   
+
+.logo{
+    margin-left: 3%;
+    font-family: 'Merriweather', serif;
+    font-size: 250%; 
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    color:white
+}
+.links{
+    display: flex;
+    width: 53%;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 150%;
+    font-weight: bold;
+    /* margin-right: ; */
+}
+.link{
+    text-decoration: none;
+    color:white
+
+}
+.link:hover{
+    text-decoration: underline;
+}
+.buttons{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    height: 10%;
+}
+
+
+.btn{
+    margin: 3%;
+    background: none;
+    border: 1px solid gray;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80%;
+    width: 30%;
+    height: 500%;
+    border-radius: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitebtn{
+    background-color: white;
+        color: black;   
+    }
+
+    .btn:hover{
+        cursor: pointer;
+        width: 31%;
+        height: 530%;
+
+}

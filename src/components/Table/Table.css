@@ -1,0 +1,44 @@
+.table{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(15px);
+    background-color: black;
+    box-sizing: border-box;
+}
+.wrp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ihead{
+
+   width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+.itable{
+    
+    width: 35%;
+    border-right: 1px solid white;
+  
+}
+.ltable{
+
+    width: 32%;
+ 
+}
+.ptable{
+
+    width: 33%;
+    border-left: 1px solid white;
+}
+
+.img{
+    width: 100%;
+}

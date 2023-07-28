@@ -1,0 +1,55 @@
+.pretestPage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    color: white;
+    font-size: 200%;
+    letter-spacing: 2px;
+    padding: 3%;
+
+}
+
+
+.btnwrap{
+    width: 15%;
+    height:20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80%;
+}
+
+
+.startbtn{
+    background-color: blue;
+    color: white;
+    width: 40%;
+    height: 25%;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3%;
+    padding-bottom: 1%;
+    border: 2px solid black ;
+}
+
+.startbtn:hover{
+    cursor: pointer;
+    width: 42%;
+    height: 27%;
+    scale: 1.1;
+}
